@@ -1,6 +1,6 @@
 # tasks
 
-`tasks` is a list switcher for the fantastic task manager [[t by steve losh|http://stevelosh.com/projects/t/]]. `tasks` also comes with a prompt string function that will output the number of tasks you have incomplete. The output is color coded depending on the number of tasks you have incomplete. There is also a prompt command that will display a reminder message on an incomplete task at random intervals.
+`tasks` is a list switcher for the fantastic task manager [t by Steve Losh](http://stevelosh.com/projects/t/). `tasks` also comes with a prompt string function that will output the number of tasks you have incomplete. The output is color coded depending on the number of tasks you have incomplete. There is also a prompt command that will display a reminder message on an incomplete task at random intervals.
 
 ## Why Write This?
 
@@ -10,7 +10,7 @@ I wanted to be able to change the list that `t` works on without any hassle. I u
 
 **Installing `tasks` is really easy:**
 
-[[Install t|http://stevelosh.com/projects/t/#installing-t]]
+[Install t](http://stevelosh.com/projects/t/#installing-t)
 
 Grab a copy using `git clone`
 
@@ -51,7 +51,7 @@ In your .bashrc file add something like the following line below the rest of the
 The path to the `t` python file. Default: `~/bin/t/t.py`
 
 ###__TASKS_LIST_DIR
-The directory where the `t` list files are saved. I recommend using a [[Dropbox|http://db.tt/UpKcGyU]] folder. Default: `~/.tasks`
+The directory where the `t` list files are saved. I recommend using a [Dropbox](http://db.tt/UpKcGyU) folder. Default: `~/.tasks`
 
 ###__TASK_CURRENT_LIST_FILE
 The name of the file to save the current list name. This file is created inside the __TASKS_LIST_DIR. Default:`.current_task_list`
