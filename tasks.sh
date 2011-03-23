@@ -7,7 +7,7 @@ By: Tim Oram
 '
 
 # set some defaults
-__TASKS_T_PATH=${__TASKS_T_PATH:-"~/bin/t/t.py"}
+__TASKS_T_PATH=${__TASKS_T_PATH:-~/bin/t/t.py}
 __TASKS_LIST_DIR=${__TASKS_LIST_DIR:-"~/.tasks"}
 __TASKS_LIST_FILE=${__TASKS_LIST_FILE:-"tasks"}
 __TASK_CURRENT_LIST_FILE=${__TASK_CURRENT_LIST_FILE:-".current_task_list"}
