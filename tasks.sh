@@ -146,9 +146,9 @@ __tasks_ps1() {
 	
 	# add an 's' if more than one task
 	if (( $task_count == 1 )); then
-		echo -e "$__TASK_PS1_PREFIX$color$task_count Task$__TASKS_COLOR_NORMAL in $__TASKS_LIST_FILE$__TASKS_COLOR_RESET$__TASK_PS1_POSTFIX"
+		echo -e "$__TASKS_COLOR_NORMAL$__TASK_PS1_PREFIX$color$task_count Task$__TASKS_COLOR_NORMAL in $__TASKS_LIST_FILE$__TASKS_COLOR_NORMAL$__TASK_PS1_POSTFIX$__TASKS_COLOR_RESET"
 	else
-		echo -e "$__TASK_PS1_PREFIX$color$task_count Tasks$__TASKS_COLOR_NORMAL in $__TASKS_LIST_FILE$__TASKS_COLOR_RESET$__TASK_PS1_POSTFIX"
+		echo -e "$__TASKS_COLOR_NORMAL$__TASK_PS1_PREFIX$color$task_count Tasks$__TASKS_COLOR_NORMAL in $__TASKS_LIST_FILE$__TASKS_COLOR_NORMAL$__TASK_PS1_POSTFIX$__TASKS_COLOR_RESET"
 	fi
 }
 
